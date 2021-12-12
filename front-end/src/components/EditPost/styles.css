@@ -1,0 +1,119 @@
+.post {
+  width: 25vw;
+  height: 25vw;
+  background-size: cover;
+  color: white;
+  margin: 15px;
+  box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post:hover {
+  transform: scale(1.02);
+}
+
+.post-wraper {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.Link {
+  text-decoration: none !important;
+}
+
+.post-wraper p {
+  padding-right: 50px;
+}
+
+.post h1 {
+  font-size: 2rem;
+}
+
+.post p {
+  font-size: 0.8rem;
+}
+
+.post h3 {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 1125px) {
+  .post {
+    width: 24vw;
+    height: 24vw;
+  }
+}
+
+@media screen and (max-width: 1076px) {
+  .post {
+    width: 25vw;
+    height: 25vw;
+  }
+
+  .post h1 {
+    font-size: 1.5rem;
+  }
+
+  .post p {
+    font-size: 0.6rem;
+  }
+
+  .post h3 {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .post {
+    width: 27vw;
+    height: 27vw;
+  }
+}
+
+@media screen and (max-width: 888px) {
+  .post {
+    width: 27vw;
+    height: 27vw;
+  }
+
+  .post h1 {
+    font-size: 1.2rem;
+  }
+
+  .post p {
+    font-size: 0.4rem;
+  }
+
+  .post h3 {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .post {
+    width: 90vw;
+    height: 90vw;
+  }
+
+  .post h1 {
+    font-size: 3rem;
+  }
+
+  .post p {
+    font-size: 1rem;
+  }
+
+  .post h3 {
+    font-size: 2.5rem;
+  }
+}

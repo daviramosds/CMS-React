@@ -1,0 +1,143 @@
+form {
+  width: 99vw;
+
+  display: flex;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.swal2-popup .swal2-styled:focus {
+  box-shadow: none !important;
+}
+
+.posts input[type="text"],
+.posts input[type="email"],
+.posts select,
+.posts textarea {
+  background-color: var(--background-color);
+  margin: 5px;
+  margin: 5px auto;
+  height: 45px;
+  width: 60vw;
+
+  color: var(--white-color);
+
+  border-radius: 8px;
+
+  padding-left: 7px;
+
+  border: none;
+}
+
+.posts input[type="submit"] {
+  background-color: var(--background-color);
+  border: 1px solid var(--background-color);
+  height: 45px;
+  width: 10vw;
+
+  color: var(--white-color);
+
+  border-radius: 8px;
+
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+  margin: 5px auto;
+}
+
+.posts input[type="submit"]:hover {
+  background-color: var(--white-color);
+  color: var(--background-color);
+  border: 1px solid var(--background-color);
+}
+
+.posts textarea {
+  resize: none;
+  height: 250px !important;
+  width: 60vw !important;
+  padding-top: 7px;
+}
+
+.posts .remove {
+  background-color: var(--red-color);
+  border: 1px solid var(--red-color);
+  height: 45px;
+  width: 10vw;
+
+  color: var(--white-color);
+
+  border-radius: 8px;
+
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+  margin: 5px auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.posts .remove:hover {
+  opacity: 0.8;
+}
+.double {
+  display: flex;
+  width: 22vw;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 900px) {
+  .posts input[type="text"],
+  .posts input[type="email"],
+  .posts select,
+  .posts textarea {
+    width: 80vw !important;
+  }
+
+  .remove {
+    width: 15vw !important;
+  }
+
+  .posts input[type="submit"] {
+    width: 15vw;
+  }
+
+  .double {
+    display: flex;
+    width: 40vw;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .double {
+    display: flex;
+    width: 80vw;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+
+  .remove {
+    width: 32vw !important;
+  }
+
+  input[type="submit"] {
+    width: 32vw !important;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .posts input[type="text"],
+  .posts input[type="email"],
+  .posts select,
+  .posts textarea {
+    width: 90vw !important;
+  }
+}

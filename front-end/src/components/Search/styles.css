@@ -1,0 +1,53 @@
+.searchBox {
+  height: 40px;
+}
+
+.searchBox:hover > .searchInput {
+  width: 200px;
+  padding: 0 12px;
+  border-bottom: 1px solid #2f3640;
+}
+
+.hover-input {
+  width: 200px !important;
+  padding: 0 12px !important;
+}
+
+.hover-button {
+  background: white !important;
+  color: var(--main-color) !important;
+}
+
+.searchButton {
+  color: #2f3640;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  border: 0;
+}
+
+.searchInput {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #2f3640;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+  /* display: none; */
+}
+
+.searchFilled {
+  width: 200px;
+  padding: 0 12px;
+  border-bottom: 1px solid #2f3640;
+}
